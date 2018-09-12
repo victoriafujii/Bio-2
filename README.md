@@ -4,7 +4,7 @@ Repositório do site de Bioengenharia Ocular 2
 Uma breve explicação do projeto:
 
 Este projeto utiliza ReactJS, que é uma distribuição de JavaScript criada pelo Facebook.
-Basicamente, temos a nossa página em /src/index.html que recebe os scripts de index.js para que ela seja construída.
+Basicamente, temos a nossa página na pasta /src/index.html que recebe os scripts de /src/index.js para que ela seja construída.
 O ReactJS é capaz de construir as páginas de forma dinâmica. O mesmo script pode reconstrui-la a partir de um comando,
 como o clique em um botão, por exemplo.
 A intenção é contruir somente um esqueleto em html, no arquivo /src/index.html e manipular todos os mostradores e gráficos com ReactJS,
