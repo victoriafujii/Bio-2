@@ -12,8 +12,18 @@ importando a API do climatempo e os dados dos sensores e mostrando do jeito que 
 
 !!! IMPORTANTE !!!
 
-Ainda falta uma pasta para rodar os arquivos! O ReactJS utiliza pacotes de JavaScript para rodar, e você precisa baixar esses pacotes se quiser rodar o site. Não consigo upar aqui porque são quase 15 mil arquivos, e o github pede pra upar 100 arquivos por vez.
-Para rodar o site você precisa baixar todos os arquivos deste repositório e baixar o Node.js:
+Ainda falta uma pasta e um arquivo para rodar o site! Para rodar o site, baixe os arquivos deste repositório e siga os passos abaixo:
+
+O arquivo que falta chama ".babelrc", e ele não aparece aqui. Pelo que eu entendi, existe uma convenção de que arquivos que começam com um ponto "." devem ser escondidos por algum motivo que eu não sei. Crie um arquivo, em algum editor de texto, chamado ".babelrc" e coloque no conteudo:
+
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+
+Salve na pasta com todos os arquivos deste repositório.
+
+O ReactJS utiliza pacotes de JavaScript para rodar, e você precisa baixar esses pacotes se quiser rodar o site. Não consigo upar aqui porque são quase 15 mil arquivos, e o github pede pra upar 100 arquivos por vez.
+Antes de baixar esses 15 mil arquivos, baixe o Node.js:
 
 https://nodejs.org/en/
 
