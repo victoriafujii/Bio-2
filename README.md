@@ -29,6 +29,10 @@ npm install react react-dom --save-dev
 
 npm install prop-types --save-dev
 
+npm i html-webpack-plugin html-loader --save-dev
+
+npm i webpack-dev-server --save-dev
+
 npm install file-loader
 
 ACHO que são só esses, mas nao feche o prompt. Quando acabar de baixar, você deve ter uma pasta chamada node_modules dentro da pasta que você colocou os arquivos do git. Colocando o comando:
