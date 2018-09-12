@@ -19,7 +19,7 @@ https://nodejs.org/en/
 
 Baixe a versão da direita, Latest Features. Após isso, abra o prompt de comando e acesse a pasta que você baixou aqui do git. Copie e cole os comandos abaixo, um de cada vez, esperando cada um acabar os downloads.
 
-npm install webpack --save-dev
+npm install webpack --save-dev\n
 npm install webpack-cli --save-dev
 npm install @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
 npm install react react-dom --save-dev
