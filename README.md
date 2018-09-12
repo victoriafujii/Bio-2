@@ -17,7 +17,7 @@ Para rodar o site você precisa baixar todos os arquivos deste repositório e ba
 
 https://nodejs.org/en/
 
-Baixe a versão da direita, Latest Features. Após isso, abra o prompt de comando e acesse a pasta que você baixou aqui do git. Copie e cole os comandos abaixo, um de cada vez, esperando cada um acabar os downloads.
+Baixe a versão da direita, Latest Features. Após isso, abra o prompt de comando e acesse a pasta que você baixou aqui do git pelo prompt. Copie e cole os comandos abaixo, um de cada vez, esperando cada um acabar os downloads.
 
 npm install webpack --save-dev
 
