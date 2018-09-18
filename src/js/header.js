@@ -1,8 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import logoimg from '../../images/logolio.jpg'
 
-class Header extends React.Component {
+export class Header extends React.Component {
   render() {
     return (<div>
       <a href="http://www.sel.eesc.usp.br/lio/" target="_blank">
@@ -12,7 +11,3 @@ class Header extends React.Component {
   );
   }
 }
-
-ReactDOM.render(<Header />, document.getElementById('header'));
-
-export default Header;
