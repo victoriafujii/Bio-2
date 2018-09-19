@@ -49,6 +49,8 @@ npm install file-loader
 
 npm install --save-dev @babel/plugin-proposal-class-properties
 
+npm install css-loader --save-dev
+
 ACHO que são só esses, mas nao feche o prompt. Quando acabar de baixar, você deve ter uma pasta chamada node_modules dentro da pasta que você colocou os arquivos do git. Colocando o comando:
 
 npm start
