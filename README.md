@@ -17,8 +17,10 @@ Ainda falta uma pasta e um arquivo para rodar o site! Para rodar o site, baixe o
 O arquivo que falta chama ".babelrc", e ele não aparece aqui. Pelo que eu entendi, existe uma convenção de que arquivos que começam com um ponto "." devem ser escondidos por algum motivo que eu não sei. Crie um arquivo, em algum editor de texto, chamado ".babelrc" e coloque no conteudo:
 
 {
-  "presets": ["@babel/preset-env", "@babel/preset-react"]
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["@babel/plugin-proposal-class-properties"]
 }
+
 
 Salve na pasta com todos os arquivos deste repositório.
 
