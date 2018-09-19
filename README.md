@@ -59,6 +59,11 @@ npm start
 
 Você deve ver a página abrir sozinha no seu browser. Esse comando abre um servidor local no seu computador. Quando já não quiser mais ver a página, digite crtl+c no prompt e digite s ou y para a pergunta que ele faz em seguida.
 
+Considerações sobre o projeto:
+
+- API do climatempo
+  O climatempo disponibiliza de graça seus dados de metereologia. Ao criar sua conta em https://advisor.climatempo.com.br/, você pode criar um token (que é basicamente um número para indentificar você para o climatempo). Ao criar o token, ative o CORS. Ele é um protocolo de segurança que possibilita que utilizemos a API em nosso site. Sem ele ativado, nossa requisição será negada e não conseguiremos coletar os dados.
+  O climatempo também permite somente 300 requisições diárias. Isso significa que podemos fazer uma requisição a cada 5 minutos (288 diárias) para não exceder esse limite.
 
 Cursos pra aprender HTML, CSS, JavaScript e ReactJS:
 https://www.codecademy.com/catalog/language/html-css
