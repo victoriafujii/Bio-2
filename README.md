@@ -47,6 +47,8 @@ npm i webpack-dev-server --save-dev
 
 npm install file-loader
 
+npm install --save-dev @babel/plugin-proposal-class-properties
+
 ACHO que são só esses, mas nao feche o prompt. Quando acabar de baixar, você deve ter uma pasta chamada node_modules dentro da pasta que você colocou os arquivos do git. Colocando o comando:
 
 npm start
