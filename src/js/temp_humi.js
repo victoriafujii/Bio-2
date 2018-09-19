@@ -1,9 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 
-const date = new Date();
-const hour = date.getHours();
-
 export class TempHumi extends React.Component {
   state = {
     temperatura_CT: null,
