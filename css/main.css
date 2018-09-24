@@ -1,12 +1,9 @@
 html {
   height: 100%
 }
-header {
-  border-bottom: 1px solid DeepSkyBlue;
-}
 
 body {
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 h2,
@@ -123,7 +120,7 @@ h4 {
 
 .box-7 {
   top: 80%;
-  right: 50%;
+  right: 40%;
 }
 
 .box-center {
