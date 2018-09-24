@@ -32,14 +32,28 @@ export class TempHumi extends React.Component {
   }
   render() {
     return (<div>
-      <h2>Temperatura e Umidade</h2>
-      <h3>Sensores locais</h3>
-      <h4>Temperatura: {this.state.temperatura_SEL} °C</h4>
-      <h4>Umidade: {this.state.umidade_SEL}%</h4>
-      <h2>Climatempo</h2>
-      <h4>Temperatura: {this.state.temperatura_CT} °C</h4>
-      <h4>Umidade: {this.state.umidade_CT}%</h4>
-    </div>
+	<fieldset>
+        <legend>Temperatura e Umidade</legend>
+     
+	<table>
+	  <tr>
+		<td></td>
+		<th>Estação</th>
+		<th>Climatempo</th>
+	  </tr>
+	  <tr>
+		<th>Temperatura</th>
+		<td>{this.state.temperatura_SEL}°C</td>
+		<td>{this.state.temperatura_CT}°C</td>
+	  </tr>
+	  <tr>
+		<th>Umidade</th>
+		<td>{this.state.umidade_SEL}%</td>
+		<td>{this.state.umidade_CT}%</td>
+	  </tr>
+	</table>
+        </fieldset>
+		</div>
   );
   }
 }
