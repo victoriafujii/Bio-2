@@ -5,10 +5,41 @@ header {
   border-bottom: 1px solid DeepSkyBlue;
 }
 
-h2 {
+body {
+  padding: 1rem;
+}
+
+h2,
+legend {
   font-family: Arial;
+  font-weight: bold;
   font-size: 16px;
   text-align: center;
+  text-shadow: 3px 3px 5px SlateGray;
+}
+
+td, th {
+  width: 4rem;
+  height: 2rem;
+ // border: 1px solid #ccc;
+  font-family: Arial;
+  text-align: center;
+  padding: 2px;
+  font-size:1vw;
+  color:#030303;
+}
+th {
+  background: #B8C9FE;
+  border-color: white;
+  font-weight: lighter;
+}
+
+
+fieldset {
+  border: 1px solid white;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 7px 7px 20px 0px  rgba(0,0,0,0.3), 40px 40px 10px -40px  rgba(0,0,0,0.8);
 }
 
 h3 {
@@ -27,16 +58,29 @@ h4 {
 }
 
 .small-box {
-  width: 15%;
-  height: 10%;
-  border: 1px solid Black;
+  text-align: center;
+  width: 20%;
+  //height: 10%;
+
+  max-width: 35%;
+  padding: 2px;
+  /* Center Div */
+  display: block;
+  
   position: absolute;
+  margin: 2px 2px;
 }
 
 .medium-box {
-  width: 15%;
-  height: 20%;
-  border: 1px solid Black;
+  text-align: center;
+  width: 20%;
+  //height: 20%;
+  
+  max-width: 35%;
+  padding: 2px;
+  /* Center Div */
+  display:block;
+  margin: 2px 2px;
   position: absolute;
 }
 
@@ -44,36 +88,42 @@ h4 {
   width: 50%;
   height: 50%;
   position: absolute;
+  //margin: 5px 5px;
 }
 
 .box-1 {
   top: 25%;
-  left: 8%;
+  left: 3%;
 }
 
 .box-2 {
-  top: 50%;
-  left: 8%;
+  top: 55%;
+  left: 3%;
 }
 
 .box-3 {
   top: 75%;
-  left: 8%;
+  left: 3%;
 }
 
 .box-4 {
   top: 25%;
-  right: 8%;
+  right: 3%;
 }
 
 .box-5 {
   top: 50%;
-  right: 8%;
+  right: 3%;
 }
 
 .box-6 {
   top: 75%;
-  right: 8%;
+  right: 3%;
+}
+
+.box-7 {
+  top: 80%;
+  right: 50%;
 }
 
 .box-center {
@@ -82,6 +132,20 @@ h4 {
   left: 25%;
 }
 
+.text {
+  font-size:1vw;
+  color:#545353;
+}
+
+.left{
+  text-align:left;
+  margin-left: 7%;
+}
+
+.center{
+    text-align:center;
+}
+
 #grad {
-  background-image: linear-gradient(to bottom, White 0%, AliceBlue 90%);
+  background: linear-gradient(0.5turn, #B9C9FB, #ebf8e1, #FBF3B9);
 }
